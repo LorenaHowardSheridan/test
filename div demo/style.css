@@ -1,0 +1,57 @@
+.one,.two,.three,.four,.five {
+    color: white; /*color of the type or elements inside the div*/
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: large;
+
+    /* the flex affects all elements inside of it */
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center; /*vertically within the container*/
+    align-content:center; /*vertically within the container*/
+    justify-content: center; /*left or right*/
+
+    /*border of containers */
+    border:solid;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+   
+}
+
+.one {
+    background-color: rgb(10, 78, 130);
+    width: 100vw;
+    height: 100vw;
+}
+
+.two {
+    background-color: blue;
+    width: 90%;
+    height: 90%;
+}
+
+.three {
+    
+    background-color: rgb(255, 0, 251);
+    width: 90%;
+    height: 90%;
+}
+
+.four { 
+    /* I declared a flex here in order to center the divs inside*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    background-color: coral;
+    width: 90%;
+    height: 90%;
+}
+
+.five {
+    background-color: rgb(232, 81, 31);
+    width: 25%;
+    height:25%;
+}
